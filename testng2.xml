@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="First Suite">
+  <test thread-count="5" name="First Trial">
+    <classes>
+      <class name="Test.TestBasics">
+  		  <methods>
+  			  <include name="Demo"></include>
+		  </methods>		  
+	  </class>
+      <class name="Test.TestBasics2">		  
+	  </class>
+    </classes>
+  </test> <!-- Test -->  
+  <test name="Second Trial">
+	<classes>
+      <class name="Test.TestBasics3">
+		  <methods>
+			  <exclude name=".*Login.*"/>
+		  </methods>
+	  </class>
+      <class name="Test.TestBasics4">
+		  <methods>
+			  <exclude name="EigthDemo"/>
+		  </methods>
+	  </class>	  
+  	</classes>
+  </test>
+</suite> <!-- Suite -->
