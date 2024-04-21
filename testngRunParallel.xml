@@ -14,7 +14,7 @@
   			  <include name="Demo"></include>
 		  </methods>		  
 	  </class>
-      <class name="Test.TestBasics2">		  
+      <class name="Test.TestBasics3">		  
 	  </class>
     </classes>
   </test> <!-- Test -->  
@@ -24,7 +24,7 @@
 	<classes>
       <class name="Test.TestBasics3">
 	  </class>
-      <class name="Test.TestBasics4">
+      <class name="Test.TestBasics5">
 		  <parameter name="URL" value="methodLevel.com"/>
 		  <methods>
 			  <exclude name="EigthDemo"/>
